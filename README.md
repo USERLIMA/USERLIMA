@@ -4,7 +4,7 @@
 const aboutMe = {
    age: 22,
    state: "São Paulo",
-   jobRole: "Web Developer" || "Full-Stack Developer" || "Data Analyst",
+   jobRole: "Full-Stack Developer" || "Data Analyst",
    firstJob: "WARNER BROS",
    currentCompanny: "YSSY",
    allocatedIn: "BRADESCO",
