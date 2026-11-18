@@ -31,7 +31,7 @@ jobs:
           persist-credentials: false
 
       - name: Generate light and dark contribution snakes
-        uses: Platane/snk/svg-only@b58af55b7df7854d355d1243ff3d4794692fa7e2 # v3.1.0
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ github.token }}
