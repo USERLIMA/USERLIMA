@@ -1,6 +1,13 @@
 name: Generate contribution snake
 
 on:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/cobrinha.yml"
+      - "scripts/generate_contribution_history.py"
+      - "scripts/normalize_snake_duration.py"
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
